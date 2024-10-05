@@ -1,0 +1,109 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #F4A7B9; 
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lora', serif;
+    
+
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    font-family: 'Lora', serif;
+
+}
+
+
+main {
+    padding: 2rem;
+    
+}
+
+
+.primeira {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+    font-family: 'Lora', serif;
+    
+}
+
+.primeira p {
+    max-width: 40rem;
+    margin-right: 2rem;
+    font-family: 'Lora', serif;
+
+}
+
+.primeira img {
+    width: 15rem;
+    border-radius: 18px;
+}
+
+
+.segunda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8D1DD; 
+    height: 25rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    gap: 1.5rem;
+    font-family: 'Lora', serif;
+    border-radius: 18px; 
+}
+
+
+
+.segunda img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.segunda p {
+    max-width: 25rem;
+    margin: 0 1.5rem;
+    font-family: 'Lora', serif;
+
+}
+
+
+.terceira {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    font-family: 'Lora', serif;
+
+}
+
+.terceira img {
+    width: 12rem;
+    height: 8rem;
+    object-fit: cover; 
+    border-radius: 18px; 
+}
